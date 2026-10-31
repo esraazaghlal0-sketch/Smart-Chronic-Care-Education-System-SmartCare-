@@ -1,0 +1,18 @@
+# secrets and environment files
+.env
+*.env
+.env.*
+credentials*.json
+secrets*
+
+# n8n local data
+.n8n/
+n8n_data/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# large files (share via Drive instead)
+*.mp4
+*.mov
